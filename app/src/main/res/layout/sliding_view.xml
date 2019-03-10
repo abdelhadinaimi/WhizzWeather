@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- The content view -->
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        sothree:umanoPanelHeight="68dp"
+        sothree:umanoShadowHeight="4dp"
+        sothree:umanoScrollableView="@id/my_recycler_view">
+        <!-- The main content view -->
+        <include layout="@layout/main_view"
+            android:gravity="center"/>
+        <!-- The Swipeup view -->
+        <fragment
+            android:name="com.whizzmirray.whizzweather.views.SlidingupView"
+            android:id="@id/sliding_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:textSize="16sp"/>
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+</android.support.design.widget.CoordinatorLayout>

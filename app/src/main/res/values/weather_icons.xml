@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="d10">weather_clear</string>
+    <string name="n10">weather_clear_night</string>
+
+    <string name="d20">weather_few_clouds</string>
+    <string name="n20">weather_few_clouds_night</string>
+
+    <string name="d30">weather_clouds</string>
+    <string name="n30">weather_clouds_night</string>
+    
+    <string name="d40">weather_broken_clouds</string>
+    <string name="n40">weather_broken_clouds</string>
+
+
+    <string name="d01">weather_rain_day</string>
+    <string name="n01">weather_rain_night</string>
+
+    <string name="d11">weather_storm_day</string>
+    <string name="n11">weather_storm_night</string>
+    
+    <string name="d31">weather_snow</string>
+    <string name="n31">weather_snow</string>
+
+    <string name="d05">weather_mist</string>
+    <string name="n05">weather_mist</string>
+</resources>
